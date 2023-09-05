@@ -1,0 +1,169 @@
+{
+    "code": 0,
+    "categoryID": 2,
+    "categoryName": "Recomendados",
+    "pageTotal": 2,
+    "couponTotal": 20,
+    "couponList": [
+        {
+            "couponID": 536,
+            "discount": 100,
+            "couponSummary": "20% dscto. en toda la tienda",
+            "couponLevel": 1,
+            "couponRating": 4.24,
+            "couponRatingCount": 50,
+            "couponURL": "https://loyalty.bitel.com.pe/img/5542c3539c8df2b2ff4e99a9c86d3e95-21.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/12a1c0984a509adf61cec508ea86ade3-22.jpg",
+            "brand": {
+                "brandID": 273,
+                "brandName": "Topitop",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 92,
+            "discount": 94,
+            "couponSummary": "94% dscto. en instalación de brackets",
+            "couponLevel": 1,
+            "couponRating": 4.34,
+            "couponRatingCount": 40,
+            "couponURL": "https://loyalty.bitel.com.pe/img/90d1aaa25a47736b9c6bfebb82c56038-BITEL_BANNERAPP_55.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/83f189d98a8030b652d1b8052c594fb1-BITEL_BANNERWEB_60.jpg",
+            "brand": {
+                "brandID": 58,
+                "brandName": "Virtual Dent",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 2675,
+            "discount": 87,
+            "couponSummary": "60% dscto. en alojamiento",
+            "couponLevel": 1,
+            "couponRating": 0,
+            "couponRatingCount": 0,
+            "couponURL": "https://loyalty.bitel.com.pe/img/d2c7e85691fa7a1f1ed8940980c2d33a-BITEL_BANNERAPP_67.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/fa5fc5c03ff91612d2c321d6ebd8e8ea-BITEL_BANNERWEB_67.jpg",
+            "brand": {
+                "brandID": 1050,
+                "brandName": "Hotel Qelqatani",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 2261,
+            "discount": 93,
+            "couponSummary": "20% dscto. sobre el precio regular",
+            "couponLevel": 1,
+            "couponRating": 4.33,
+            "couponRatingCount": 3,
+            "couponURL": "https://loyalty.bitel.com.pe/img/eb124ccb0bf37e40cbdc547689c647d8-BITEL_BANNERAPP_31.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/fe169e378ac6c2c8611540cd57d68115-BITEL_BANNERWEB_31.jpg",
+            "brand": {
+                "brandID": 356,
+                "brandName": "Amphora Perú",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 2492,
+            "discount": 83,
+            "couponSummary": "S/50.00 dscto. en la compra de relojes + envío gratis",
+            "couponLevel": 1,
+            "couponRating": 5,
+            "couponRatingCount": 1,
+            "couponURL": "https://loyalty.bitel.com.pe/img/e8702562477ef5c2b87a5920a9971717-BITEL_BANNERAPP_33.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/ff1c2b73185b80939206571632ed4f23-BITEL_BANNERWEB_33.jpg",
+            "brand": {
+                "brandID": 999,
+                "brandName": "Betnucci",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 294,
+            "discount": 69,
+            "couponSummary": "30% dscto. en el primer envío de USA a Perú",
+            "couponLevel": 1,
+            "couponRating": 5,
+            "couponRatingCount": 1,
+            "couponURL": "https://loyalty.bitel.com.pe/img/8d140eaaf5179fdd7bb141a721b70fb2-BITEL_BANNERAPP_52.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/ed854fc92c55d049cea089efebbebe1b-BITEL_BANNERWEB_57.jpg",
+            "brand": {
+                "brandID": 151,
+                "brandName": "Qempo",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 271,
+            "discount": 75,
+            "couponSummary": "Hasta 75% dscto. en cursos NextU All Suite",
+            "couponLevel": 1,
+            "couponRating": 2.67,
+            "couponRatingCount": 3,
+            "couponURL": "https://loyalty.bitel.com.pe/img/72ffdbd821d0fcdc690f8666852f105e-49.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/813f534b0e65b3a341a3b8e50132dac2-50.jpg",
+            "brand": {
+                "brandID": 74,
+                "brandName": "Next U ",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 126,
+            "discount": 79,
+            "couponSummary": "Hasta 75% dscto. en cursos de inglés para niños",
+            "couponLevel": 1,
+            "couponRating": 5,
+            "couponRatingCount": 1,
+            "couponURL": "https://loyalty.bitel.com.pe/img/f2208a740896810b92dfcb2fe6488ee3-47.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/108e01196d0e1daff7892c910b13e4a2-48.jpg",
+            "brand": {
+                "brandID": 1297,
+                "brandName": "Open English Jr.",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 2497,
+            "discount": 96,
+            "couponSummary": "20% dscto. en toda la tienda online",
+            "couponLevel": 1,
+            "couponRating": 0,
+            "couponRatingCount": 0,
+            "couponURL": "https://loyalty.bitel.com.pe/img/aa34165da0e0b843e43d51ca65ffefa3-BITEL_BANNERAPP_42.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/9ffdaad9d1e14e6d089e4834892ada86-BITEL_BANNERWEB_47.jpg",
+            "brand": {
+                "brandID": 1004,
+                "brandName": "Sharpie",
+                "brandURL": null
+            }
+        },
+        {
+            "couponID": 2494,
+            "discount": 96,
+            "couponSummary": "15% dscto. en circuitos de Karting para Adultos y Niños",
+            "couponLevel": 1,
+            "couponRating": 0,
+            "couponRatingCount": 0,
+            "couponURL": "https://loyalty.bitel.com.pe/img/8eae88275684c5693a2e9a890fae266b-BITEL_BANNERAPP_63.jpg",
+            "limit": 1000,
+            "imageWebUrl": "https://loyalty.bitel.com.pe/img/5eeb0a9369456e0d3bfd933227d3ff90-BITEL_BANNERWEB_63.jpg",
+            "brand": {
+                "brandID": 1002,
+                "brandName": "Formula Kart",
+                "brandURL": null
+            }
+        }
+    ]
+}

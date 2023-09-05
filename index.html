@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- Fontawesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
     <!-- Swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -45,9 +45,9 @@
                     <li class="nav-item">
                         <a class="nav-link py-0 px-2 border rounded-pill navigation-link" href="#home">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link py-0 px-2 border rounded-pill navigation-link" href="#niveles">Niveles</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link py-0 px-2 border rounded-pill navigation-link" href="#cupones">Cupones</a>
                     </li>
@@ -87,107 +87,52 @@
         </div>
     </div>
 
-    <!-- Niveles Section -->
-    <div class='section bg-gray py-5' id='niveles'>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 my-auto">
-                    <h4 class='section-title d-flex align-items-center'>
-                        <img src="assets/images/icons/icon-niveles.png" alt="" class='me-2' width="25px" />  Niveles
-                    </h4>
-                    <p>Descubre todos los puntos que obtienes según tu nivel:</p>                    
-                    <div class="col-lg-10 offset-lg-1 bg-white py-3 rounded">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-3 m-1 pt-3 border rounded text-center bg-gray ">
-                                <img src="assets/images/temp/Level1.png" alt="">
-                                <p>Economy</p>
-                                <p>230 puntos o menos</p>
-                            </div>
-                            <div class="col-3 m-1 pt-3 border rounded text-center bg-gray ">
-                                <img src="assets/images/temp/Level2.png" alt="">
-                                <p>Premium</p>
-                                <p>231 puntos - 399 puntos</p>
-                            </div>
-                            <div class="col-3 m-1 pt-3 border rounded text-center bg-gray ">
-                                <img src="assets/images/temp/Level3.png" alt="">
-                                <p>Exclusive</p>
-                                <p>400 puntos o más</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 my-auto">
-                    <img src="assets/images/imagen_niveles.png" class="img-fluid" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Cupones Section -->
     <div class='section py-5' id='cupones'>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 my-auto">
+                <div class="col-12 col-md-6 my-auto ">
                     <h4 class='section-title d-flex align-items-center'>
                         <img src="assets/images/icons/icon-cupones.png" alt="" class='me-2' width="25px" />  Cupones
                     </h4>
+                    <p>¡Tus marcas favoritas te están esperando con unas <b>súper promociones!</b></p>
                     <p>Descubre todos los puntos que obtienes según tu nivel:</p>                    
-                    <div class="col-lg-10 offset-lg-1 bg-gray py-3 rounded">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-3 m-1 pt-3 border rounded text-center bg-white ">
-                                <img src="assets/images/temp/Level1.png" alt="">
-                                <p>Economy</p>
-                                <p>230 puntos o menos</p>
+                    <div class="row col-lg-10 offset-lg-1 p-3 rounded d-flex justify-content-center bg-niveles" id="levelsContainer">
+                        <div class="col-4">
+                            <div class="card text-center level_card px-1 pb-4 pt-3">
+                                <span>
+                                    <img src="assets/images/temp/Level1.png" class="img-fluid" style="width:40px;" alt="">
+                                </span>
+                                <p class="m-0"><b style="color: #717171;">Economy</b></p>
+                                <small>1 cupón al día</small>
                             </div>
-                            <div class="col-3 m-1 pt-3 border rounded text-center bg-white ">
-                                <img src="assets/images/temp/Level2.png" alt="">
-                                <p>Premium</p>
-                                <p>231 puntos - 399 puntos</p>
+                        </div>  
+                        <div class="col-4">
+                            <div class="card text-center level_card px-1 pb-4 pt-3">
+                                <div>
+                                    <img src="assets/images/temp/Level2.png" class="img-fluid" style="width:40px;" alt="">
+                                </div>
+                                <p class="m-0"><b style="color: #FDAE00;">Premium</b></p>
+                                <small>2 cupones al día</small>
                             </div>
-                            <div class="col-3 m-1 pt-3 border rounded text-center bg-white ">
-                                <img src="assets/images/temp/Level3.png" alt="">
-                                <p>Exclusive</p>
-                                <p>400 puntos o más</p>
+                        </div>  
+                        <div class="col-4">
+                            <div class="card text-center level_card px-1 pb-4 pt-3">
+                                <div>
+                                    <img src="assets/images/temp/Level3.png" class="img-fluid" style="width:40px;" alt="">
+                                </div>
+                                <p class="m-0"><b style="color: #005ece;">Exclusive</b></p>
+                                <small>3 cupones al día</small>
                             </div>
-                        </div>
-
+                        </div>  
                     </div>
                 </div>
-                <div class="col-12 col-md-6 my-auto text-center justify-content-center">
-                    <div class="py-2 text-center cupones-cards-title">Descubre los cupones que tenemos para ti</div>
+                <div class="col-12 col-md-6 my-auto text-center justify-content-center ">
+                    <div class="py-2 text-center mt-3 cupones-cards-title">Descubre los cupones que tenemos para ti</div>
 
                     <!-- Swiper -->
                     <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow rounded-3">
-                                    <img class="card-img-top" src="https://bitel.com.pe/publish/thumbnail/2005922/600x316xdefault/upload/2005922/20230705/BANNER_PROMOTION_INICIO_4b8f6.png" alt="" />
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, dicta.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow rounded-3">
-                                    <img class="card-img-top" src="https://bitel.com.pe/publish/thumbnail/2005922/600x316xdefault/upload/2005922/20230524/Banner_mobile_c0ef6.png" alt="" />
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card border-0 shadow rounded-3">
-                                    <img class="card-img-top" src="https://bitel.com.pe/publish/thumbnail/2005922/600x316xdefault/upload/2005922/20230516/BANNER-HOME-portabilidad-500x316_87cb2.jpg" alt="" />
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">Lorem, ipsum dolor.</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum quaerat excepturi?</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="swiper-wrapper" id="cuponListContainer"></div>
                          <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
@@ -196,6 +141,7 @@
                     </div>
                     
                 </div>
+                
             </div>
         </div>
     </div>
@@ -213,7 +159,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-8">
                             <div class="bg-white p-2 rounded-3">
-                                <table class="table m-0">
+                                <table class="table m-0" id="tableExchangeInfo">
                                     <tr>
                                         <td>
                                             <b>Postpago/FTTH:</b>
@@ -230,7 +176,6 @@
                                             3 Soles = 1 Punto
                                         </td>
                                     </tr>
-                                    
                                 </table>
                             </div>
                         </div>
@@ -238,7 +183,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="nav flex-row gap-2 nav-pills mt-4 " id="v-pills-tab" role="tablist">
-                                <a class="nav-link rounded-pill btn-outline-brand active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Inicio</a>
+                                <a class="nav-link rounded-pill btn-outline-brand active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Puntos</a>
                                 <a class="nav-link rounded-pill btn-outline-brand" id="v-pills-beneficios-tab" data-bs-toggle="pill" href="#v-pills-beneficios" role="tab" aria-controls="v-pills-beneficios" aria-selected="false">Beneficios</a>
                                 <a class="nav-link rounded-pill btn-outline-brand" id="v-pills-g-puntos-tab" data-bs-toggle="pill" href="#v-pills-g-puntos" role="tab" aria-controls="v-pills-g-puntos" aria-selected="false">Gana puntos</a>
                                 <a class="nav-link rounded-pill btn-outline-brand" id="v-pills-p-puntos-tab" data-bs-toggle="pill" href="#v-pills-p-puntos" role="tab" aria-controls="v-pills-p-puntos" aria-selected="false">Pierde puntos</a>
@@ -259,175 +204,16 @@
                                         <p class="">
                                             Puedes intercambiar puntos por <b>paquetes</b> y <b>cupones.</b>
                                         </p>
-                                        <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3 card-puntos card-puntos-tag text-center bg-white rounded-3 p-3">
-                                            20 puntos = 1 Sol
-                                        </div>
+                                        <div class="col-12 col-lg-8 offset-lg-2 card-puntos card-puntos-tag text-center bg-white rounded-3 p-3" id="ratioInfo2Container"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-g-puntos" role="tabpanel" aria-labelledby="v-pills-g-puntos-tab">
-                            <div class="row">
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <img src="assets/images/temp/icon-realizar-transaccion.png" class="img-fluid" width="30%" alt="">
-                                            <p class="text-brand card-puntos-text">Realizar una transacción</p>
-                                            <div class="bg-gray rounded-3 card-puntos-tag">
-                                                Puntos ilimitados
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <img src="assets/images/temp/icon-ticket.png" class="img-fluid" width="30%" alt="">
-                                            <p class="text-brand card-puntos-text">Pago mensual puntual</p>
-                                            <div class="bg-gray rounded-3 card-puntos-tag">
-                                                +2 Puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <img src="assets/images/temp/icon-phone-charging.png" class="img-fluid" width="30%" alt="">
-                                            <p class="text-brand card-puntos-text">Consumo de 15 soles durante 90 días</p>
-                                            <div class="bg-gray rounded-3 card-puntos-tag">
-                                                +3 Puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <img src="assets/images/temp/icon-refrsh-bitel.png" class="img-fluid" width="30%" alt="">
-                                            <p class="text-brand card-puntos-text">Migrar de prepago a postpago/control</p>
-                                            <div class="bg-gray rounded-3 card-puntos-tag">
-                                                +2 Puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <img src="assets/images/temp/icon-gift.png" class="img-fluid" width="30%" alt="">
-                                            <p class="text-brand card-puntos-text">Regalo de cumpleaños</p>
-                                            <div class="bg-gray rounded-3 card-puntos-tag">
-                                                Hasta 100 Puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="row" id="acumulatePointsContainer"></div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-p-puntos" role="tabpanel" aria-labelledby="v-pills-p-puntos-tab">
-                            <div class="row">
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <p class="text-brand card-puntos-text">No pagar la tarifa durante 1 año</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="2" viewBox="0 0 50 2" fill="none">
-                                                <path d="M0 1H50" stroke="url(#paint0_linear_1954_25310)"/>
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_1954_25310" x1="-1.66667" y1="1.99999" x2="50.8333" y2="1.99999" gradientUnits="userSpaceOnUse">
-                                                        <stop offset="0.0208333" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                        <stop offset="0.526042" stop-color="#D7E6FA"/>
-                                                        <stop offset="1" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                            <div class="bg-gray rounded-3 card-puntos-tag px-2">
-                                                Se pierden todos los puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <p class="text-brand card-puntos-text">Transferencia de la cuenta</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="2" viewBox="0 0 50 2" fill="none">
-                                                <path d="M0 1H50" stroke="url(#paint0_linear_1954_25310)"/>
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_1954_25310" x1="-1.66667" y1="1.99999" x2="50.8333" y2="1.99999" gradientUnits="userSpaceOnUse">
-                                                        <stop offset="0.0208333" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                        <stop offset="0.526042" stop-color="#D7E6FA"/>
-                                                        <stop offset="1" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                            <div class="bg-gray rounded-3 card-puntos-tag px-2">
-                                                Se pierden todos los puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <p class="text-brand card-puntos-text">Cancelar suscripción</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="2" viewBox="0 0 50 2" fill="none">
-                                                <path d="M0 1H50" stroke="url(#paint0_linear_1954_25310)"/>
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_1954_25310" x1="-1.66667" y1="1.99999" x2="50.8333" y2="1.99999" gradientUnits="userSpaceOnUse">
-                                                        <stop offset="0.0208333" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                        <stop offset="0.526042" stop-color="#D7E6FA"/>
-                                                        <stop offset="1" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                            <div class="bg-gray rounded-3 card-puntos-tag px-2">
-                                                Se pierden todos los puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <p class="text-brand card-puntos-text">No recargar durante 7 meses</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="2" viewBox="0 0 50 2" fill="none">
-                                                <path d="M0 1H50" stroke="url(#paint0_linear_1954_25310)"/>
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_1954_25310" x1="-1.66667" y1="1.99999" x2="50.8333" y2="1.99999" gradientUnits="userSpaceOnUse">
-                                                        <stop offset="0.0208333" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                        <stop offset="0.526042" stop-color="#D7E6FA"/>
-                                                        <stop offset="1" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                            <div class="bg-gray rounded-3 card-puntos-tag px-2">
-                                                Se pierden todos los puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
-                                <div class="col-6 col-xl-4 mb-3">
-                                    <div class="card card-puntos border-0 py-3">
-                                        <div class="card-body card-puntos-body">
-                                            <p class="text-brand card-puntos-text">Migrar de postpago a prepago</p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="2" viewBox="0 0 50 2" fill="none">
-                                                <path d="M0 1H50" stroke="url(#paint0_linear_1954_25310)"/>
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_1954_25310" x1="-1.66667" y1="1.99999" x2="50.8333" y2="1.99999" gradientUnits="userSpaceOnUse">
-                                                        <stop offset="0.0208333" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                        <stop offset="0.526042" stop-color="#D7E6FA"/>
-                                                        <stop offset="1" stop-color="#D7E6FA" stop-opacity="0"/>
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                            <div class="bg-gray rounded-3 card-puntos-tag px-2">
-                                                Se pierden 150 puntos
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="row" id="minusPointsContainer"></div>
                         </div>
                       </div>
                 </div>
@@ -440,26 +226,61 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 my-auto">
-                    <h4 className='calculadora-title'>¿Cómo puedes usar tus puntos?</h4>
-                    <p>Puedes canjear tus puntos por paquetes y cupones</p>
-                    <div class="col-12 col-md-8 col-lg-4 card-puntos card-puntos-tag text-center bg-gray rounded-3 p-3">
-                        20 puntos = 1 Sol
+                    <div id="content-title">
+                        <h4 className='calculadora-title'>¿Cómo puedes usar tus puntos?</h4>
+                        <p>Puedes canjear tus puntos por paquetes y cupones</p>
+                        <div class="col-12 col-md-8 col-lg-4 card-puntos card-puntos-tag text-center bg-gray rounded-3 p-3" id="ratioInfoContainer">
+                            20 puntos = 1 Sol
+                        </div>
+                    </div>
+                    <div id="content-table" class="bg-gray rounded-3" style="display: none;">
+                        <div class="row">
+                            <div class="bg-white mx-auto puntos-container">
+                                <img src="assets/images/icons/icon-puntos.png" alt="" class="img-fluid me-1"  />
+                                <div class="puntos-content">
+                                    <div class="puntos-text-value" id="cus_points">300</div>
+                                    <div class="puntos-text-puntos">PUNTOS</div>
+                                </div>
+                            </div>
+                            <div class="table-responsive px-4 mt-2">
+                                <table class="table table-borderless">
+                                    <thead>
+                                        <tr>
+                                            <th>Paquete</th>
+                                            <th>Código</th>
+                                            <th>Puntos</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="benefits_table_body"></tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 my-auto text-center">
                     <div class="row justify-content-center mt-4">
-                        <div class="col-10 col-sm-6">
+                        <div class="col-10 col-md-8">
                             <div class="card bg-gray border-0 shadow">
                                 <div class="card-body">
-                                    <form action="#" class="form" id="calculator">
-                                        <input type="text" class="form-control py-2 mb-3" placeholder="Ingresa tus puntos">
-                                        <select name="" id="" class="form-control py-2 mb-3">
-                                            <option value="">Prepago</option>
-                                            <option value="">Postpago</option>
-                                            <option value="">FTTH</option>
+                                    <form class="form needs-validation" id="calculator-form" novalidate>
+
+                                        <div class="input-group has-validation">
+                                            <input type="text" class="form-control py-2 mb-3" id="input_points" name="input_points" autocomplete="off" placeholder="Ingresa tus puntos" required pattern="[0-9]+" maxlength="7" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+                                        </div>
+
+                                        <select name="calculator-cus_type" id="calculator-cus_type" class="form-control py-2 mb-3" required>
+                                            <option value="" selected disabled>Seleccione</option>
+                                            <option value="prepaid">Prepago</option>
+                                            <option value="postpaid">Postpago</option>
+                                            <option value="FTTH">FTTH</option>
                                         </select>
+
+                                        <div class="form-group mb-3" id="ratio-multiselect_packages" style="display: none;">
+                                            <p class="text-start mb-1"><b>Beneficios</b></p>
+                                            <div id="packagesOptionsContainer" class="pe-1"></div>
+                                        </div>
                                         <div class="d-grid">
-                                            <button type="submit" class="btn btn-brand-primary rounded-pill">Calcular</button>
+                                            <button type="submit" id="btn_calcular" class="btn btn-brand-primary rounded-pill" disabled>Calcular</button>
                                         </div>
                                     </form>
                                 </div>
@@ -538,8 +359,10 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/calculator.js"></script>
+    <script src="assets/js/getData.js"></script>
 </body>
 
 </html>
