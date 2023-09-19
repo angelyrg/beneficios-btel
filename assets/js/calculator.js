@@ -27,7 +27,7 @@ function togglePuntosTableView(){
     
     const pointsValue = document.getElementById('input_points');
     const cusPoints = document.getElementById('cus_points');
-    cusPoints.innerHTML = pointsValue.value;
+    cusPoints.innerHTML = parseInt(pointsValue.value);
 }
 
 
